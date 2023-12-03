@@ -93,6 +93,7 @@ export default function Home() {
       setPrices(data.data.prices)
     };
 
+    document.title = 'BTC Tracker';
     fetchData();
     fetchPrices();
 
