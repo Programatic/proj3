@@ -33,4 +33,6 @@ const TransactionComponent = forwardRef(({ hash, amount, price, timestamp }: Tra
   )
 });
 
+TransactionComponent.displayName = "Transaction"
+
 export default TransactionComponent;
