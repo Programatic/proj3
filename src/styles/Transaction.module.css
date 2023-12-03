@@ -1,0 +1,27 @@
+.transaction {
+	font-family: 'Inter';
+	border: 1px solid #c7bbbb;
+	border-radius: 7px;
+	font-weight: 400;
+	font-size: 12px;
+	padding: 10px;
+	color: #737373;
+	margin-top: 5px;
+	position: relative;
+	top: 0;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.amount {
+	font-weight: 700;
+	font-size: 15px;
+	color: black;
+}
+
+.hash {
+	color: #ed9b60;
+}
